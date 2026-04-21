@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DŹWIGI PL - Design Preview</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ============================================
+           DZWIGI PL - Industrial/Safety Design System
+           ============================================ */
+
+        /* --- CSS VARIABLES --- */
+        :root {
+          --color-bg-primary: #0a0a0a;
+          --color-bg-secondary: #1a1a1a;
+          --color-bg-tertiary: #2a2a2a;
+          
+          --color-safety-yellow: #FFC107;
+          --color-safety-orange: #FF6F00;
+          
+          --color-text-primary: #ffffff;
+          --color-text-secondary: #b0b0b0;
+          --color-text-muted: #707070;
+          
+          --color-accent-1: #FFC107;
+          --color-accent-2: #FF6F00;
+          
+          --space-xs: 0.5rem;
+          --space-sm: 1rem;
+          --space-md: 2rem;
+          --space-lg: 4rem;
+          --space-xl: 6rem;
+          
+          --font-display: 'Bebas Neue', 'Impact', sans-serif;
+          --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+          
+          --transition-fast: 0.15s ease;
+          --transition-base: 0.3s ease;
+          --transition-slow: 0.5s ease;
+          
+          --border-radius-sm: 4px;
+          --border-radius-md: 8px;
+          
+          --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+          --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+          --shadow-glow: 0 0 20px rgba(255, 193, 7, 0.3);
+        }
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        html {
+          font-size: 16px;
+          scroll-behavior: smooth;
+        }
+
+        body {
+          font-family: var(--font-body);
+          background: var(--color-bg-primary);
+          color: var(--color-text-primary);
+          line-height: 1.6;
+          overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+          font-family: var(--font-display);
+          font-weight: 700;
+          line-height: 1.2;
+          letter-spacing: 0.02em;
+          text-transform: uppercase;
+        }
+
+        h1 { font-size: clamp(3rem, 8vw, 7rem); }
+        h2 { font-size: clamp(2.5rem, 6vw, 5rem); }
+        h3 { font-size: clamp(1.8rem, 4vw, 3rem); }
+
+        p {
+          font-size: 1.1rem;
+          color: var(--color-text-secondary);
+          margin-bottom: var(--space-sm);
+        }
+
+        .container {
+          max-width: 1400px;
+          margin: 0 auto;
+          padding: 0 var(--space-md);
+        }
+
+        .text-highlight { color: var(--color-accent-1); }
+
+        .text-gradient {
+          background: linear-gradient(135deg, var(--color-safety-yellow) 0%, var(--color-safety-orange) 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        /* BUTTONS */
+        .btn {
+          display: inline-flex;
+          align-items: center;
+          gap: var(--space-xs);
+          padding: 1rem 2.5rem;
+          font-family: var(--font-display);
+          font-size: 1.2rem;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          text-decoration: none;
+          border: none;
+          border-radius: var(--border-radius-sm);
+          cursor: pointer;
+          transition: all var(--transition-base);
+        }
+
+        .btn-primary {
+          background: linear-gradient(135deg, var(--color-safety-yellow) 0%, var(--color-safety-orange) 100%);
+          color: var(--color-bg-primary);
+          font-weight: 700;
+          box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+          transform: translateY(-2px);
+          box-shadow: var(--shadow-lg), var(--shadow-glow);
+        }
+
+        .btn-secondary {
+          background: transparent;
+          border: 2px solid var(--color-accent-1);
+          color: var(--color-accent-1);
+        }
+
+        .btn-secondary:hover {
+          background: var(--color-accent-1);
+          color: var(--color-bg-primary);
+          transform: translateY(-2px);
+        }
+
+        /* HEADER */
+        .header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          background: rgba(10, 10, 10, 0.95);
+          backdrop-filter: blur(10px);
+          border-bottom: 1px solid rgba(255, 193, 7, 0.1);
+          padding: var(--space-sm) 0;
+          z-index: 1000;
+        }
+
+        .header-content {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .logo {
+          font-family: var(--font-display);
+          font-size: 2rem;
+          color: var(--color-text-primary);
+        }
+
+        .logo-accent { color: var(--color-accent-1); }
+
+        .nav {
+          display: flex;
+          gap: var(--space-md);
+          align-items: center;
+        }
+
+        .nav-link {
+          font-family: var(--font-display);
+          font-size: 1.1rem;
+          color: var(--color-text-secondary);
+          text-decoration: none;
+          padding: var(--space-xs) var(--space-sm);
+          position: relative;
+          transition: color var(--transition-base);
+        }
+
+        .nav-link::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background: var(--color-accent-1);
+          transition: width var(--transition-base);
+        }
+
+        .nav-link:hover { color: var(--color-text-primary); }
+        .nav-link:hover::after { width: 100%; }
+
+        .phone-cta {
+          display: flex;
+          gap: var(--space-sm);
+        }
+
+        .phone-link {
+          font-family: var(--font-display);
+          font-size: 1.3rem;
+          color: var(--color-accent-1);
+          text-decoration: none;
+          padding: var(--space-xs) var(--space-sm);
+          border: 2px solid var(--color-accent-1);
+          border-radius: var(--border-radius-sm);
+          transition: all var(--transition-base);
+        }
+
+        .phone-link:hover {
+          background: var(--color-accent-1);
+          color: var(--color-bg-primary);
+          transform: scale(1.05);
+        }
+
+        /* HERO */
+        .hero {
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          position: relative;
+          overflow: hidden;
+          padding-top: 100px;
+        }
+
+        .hero::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: 
+            linear-gradient(135deg, rgba(255, 193, 7, 0.05) 0%, rgba(255, 111, 0, 0.05) 100%),
+            radial-gradient(circle at 20% 50%, rgba(255, 193, 7, 0.1) 0%, transparent 50%);
+          z-index: 0;
+        }
+
+        .hero-grid {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: 
+            linear-gradient(rgba(255, 193, 7, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 193, 7, 0.03) 1px, transparent 1px);
+          background-size: 50px 50px;
+          opacity: 0.5;
+        }
+
+        .hero-content {
+          position: relative;
+          z-index: 1;
+          max-width: 900px;
+        }
+
+        .hero-subtitle {
+          font-family: var(--font-body);
+          font-size: 1.2rem;
+          color: var(--color-accent-1);
+          text-transform: uppercase;
+          letter-spacing: 0.2em;
+          margin-bottom: var(--space-sm);
+          font-weight: 600;
+          animation: slideInUp 0.8s ease-out;
+        }
+
+        .hero-title {
+          font-size: clamp(3rem, 10vw, 8rem);
+          line-height: 0.95;
+          margin-bottom: var(--space-md);
+          animation: slideInUp 0.8s ease-out;
+        }
+
+        .hero-description {
+          font-size: 1.3rem;
+          color: var(--color-text-secondary);
+          max-width: 700px;
+          margin-bottom: var(--space-lg);
+          line-height: 1.8;
+          animation: slideInUp 0.8s ease-out 0.2s backwards;
+        }
+
+        .hero-cta {
+          display: flex;
+          gap: var(--space-md);
+          flex-wrap: wrap;
+          animation: slideInUp 0.8s ease-out 0.4s backwards;
+        }
+
+        /* STATS */
+        .stats-bar {
+          background: var(--color-bg-secondary);
+          border-top: 2px solid rgba(255, 193, 7, 0.2);
+          border-bottom: 2px solid rgba(255, 193, 7, 0.2);
+          padding: var(--space-lg) 0;
+          margin: var(--space-xl) 0;
+        }
+
+        .stats-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: var(--space-lg);
+        }
+
+        .stat-item { text-align: center; }
+
+        .stat-number {
+          font-family: var(--font-display);
+          font-size: 4rem;
+          color: var(--color-accent-1);
+          display: block;
+          margin-bottom: var(--space-xs);
+        }
+
+        .stat-label {
+          font-size: 1rem;
+          color: var(--color-text-muted);
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+        }
+
+        /* CRANES SECTION */
+        .cranes-section {
+          padding: var(--space-xl) 0;
+        }
+
+        .section-header {
+          text-align: center;
+          margin-bottom: var(--space-xl);
+        }
+
+        .section-subtitle {
+          font-size: 1.1rem;
+          color: var(--color-accent-1);
+          text-transform: uppercase;
+          letter-spacing: 0.2em;
+          margin-bottom: var(--space-sm);
+          font-weight: 600;
+        }
+
+        .cranes-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+          gap: var(--space-md);
+        }
+
+        .crane-card {
+          background: var(--color-bg-secondary);
+          border: 1px solid rgba(255, 193, 7, 0.1);
+          border-radius: var(--border-radius-md);
+          overflow: hidden;
+          transition: all var(--transition-base);
+          cursor: pointer;
+        }
+
+        .crane-card:hover {
+          transform: translateY(-8px);
+          border-color: var(--color-accent-1);
+          box-shadow: var(--shadow-lg), var(--shadow-glow);
+        }
+
+        .crane-card-image {
+          width: 100%;
+          height: 250px;
+          object-fit: cover;
+          transition: transform var(--transition-slow);
+        }
+
+        .crane-card:hover .crane-card-image {
+          transform: scale(1.1);
+        }
+
+        .crane-card-content {
+          padding: var(--space-md);
+        }
+
+        .crane-card-title {
+          font-family: var(--font-display);
+          font-size: 2rem;
+          color: var(--color-text-primary);
+          margin-bottom: var(--space-sm);
+        }
+
+        .crane-card-specs {
+          display: flex;
+          gap: var(--space-md);
+          margin-bottom: var(--space-md);
+        }
+
+        .spec-label {
+          font-size: 0.85rem;
+          color: var(--color-text-muted);
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          margin-bottom: 4px;
+        }
+
+        .spec-value {
+          font-family: var(--font-display);
+          font-size: 1.5rem;
+          color: var(--color-accent-1);
+        }
+
+        .crane-card-link {
+          color: var(--color-accent-1);
+          text-decoration: none;
+          font-weight: 600;
+          transition: gap var(--transition-base);
+        }
+
+        /* ABOUT SECTION */
+        .about-section {
+          padding: var(--space-xl) 0;
+          background: var(--color-bg-secondary);
+          position: relative;
+        }
+
+        .about-section::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 2px;
+          background: linear-gradient(90deg, transparent, var(--color-accent-1), transparent);
+        }
+
+        .about-content {
+          max-width: 1100px;
+          margin: 0 auto;
+        }
+
+        .about-text {
+          font-size: 1.15rem;
+          line-height: 1.9;
+          color: var(--color-text-secondary);
+          margin-bottom: var(--space-md);
+          text-align: justify;
+        }
+
+        .about-text strong {
+          color: var(--color-accent-1);
+          font-weight: 700;
+        }
+
+        /* FOOTER */
+        .footer {
+          background: var(--color-bg-primary);
+          border-top: 2px solid rgba(255, 193, 7, 0.2);
+          padding: var(--space-xl) 0 var(--space-md);
+          position: relative;
+        }
+
+        .footer::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 2px;
+          background: linear-gradient(90deg, transparent, var(--color-accent-1), transparent);
+        }
+
+        .footer-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: var(--space-lg);
+          margin-bottom: var(--space-lg);
+        }
+
+        .footer-section h3 {
+          font-size: 1.5rem;
+          margin-bottom: var(--space-md);
+          color: var(--color-accent-1);
+        }
+
+        .footer-section p {
+          color: var(--color-text-secondary);
+          margin-bottom: var(--space-xs);
+          line-height: 1.8;
+        }
+
+        .footer-section a {
+          color: var(--color-text-secondary);
+          transition: all var(--transition-base);
+          display: inline-block;
+        }
+
+        .footer-section a:hover {
+          color: var(--color-accent-1);
+          transform: translateX(4px);
+        }
+
+        .footer-bottom {
+          text-align: center;
+          padding-top: var(--space-md);
+          border-top: 1px solid rgba(255, 193, 7, 0.1);
+          color: var(--color-text-muted);
+          font-size: 0.9rem;
+        }
+
+        @keyframes slideInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @media (max-width: 768px) {
+          .nav { display: none; }
+          .phone-cta { flex-direction: column; }
+          .cranes-grid { grid-template-columns: 1fr; }
+          .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                DŹWIGI<span class="logo-accent">PL</span>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Start</a>
+                <a href="#cranes" class="nav-link">Oferta</a>
+                <a href="#about" class="nav-link">O firmie</a>
+                <a href="#contact" class="nav-link">Kontakt</a>
+            </nav>
+            <div class="phone-cta">
+                <a href="tel:600057140" class="phone-link">600 057 140</a>
+                <a href="tel:728600690" class="phone-link">728 600 690</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-grid"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-subtitle">Profesjonalne usługi dźwigowe 24/7</div>
+                <h1 class="hero-title">
+                    <span class="text-gradient">DŹWIGI</span> I ŻURAWIE<br>
+                    DO <span class="text-highlight">200 TON</span>
+                </h1>
+                <p class="hero-description">
+                    Oferujemy wynajem dźwigów Liebherr o udźwigu do 200 ton i wysięgu do 100 metrów. 
+                    Działamy na terenie całej Polski, ze szczególnym uwzględnieniem województwa dolnośląskiego.
+                </p>
+                <div class="hero-cta">
+                    <a href="tel:600057140" class="btn btn-primary">
+                        Zadzwoń teraz →
+                    </a>
+                    <a href="#cranes" class="btn btn-secondary">
+                        Zobacz park maszynowy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">200t</span>
+                    <span class="stat-label">Maksymalny udźwig</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Dźwigów w parku</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100m</span>
+                    <span class="stat-label">Maksymalny wysięg</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Dostępność</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CRANES -->
+    <section class="cranes-section" id="cranes">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Nasz park maszynowy</div>
+                <h2>Dźwigi <span class="text-gradient">Liebherr</span></h2>
+            </div>
+            
+            <div class="cranes-grid">
+                <!-- Crane Card 1 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1200.jpg" alt="LTM 1200-5.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1200-5.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">200 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">72 m + 16 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 2 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1160.jpg" alt="LTM 1160-5.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1160-5.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">160 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">62 m + 22 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 3 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1130.jpg" alt="LTM 1130-5.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1130-5.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">130 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">60 m + 19 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 4 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1100.jpg" alt="LTM 1100-4.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1100-4.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">100 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">52 m + 19 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 5 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1095.jpg" alt="LTM 1095-5.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1095-5.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">95 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">58 m + 26 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 6 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1090.jpg" alt="LTM 1090-4.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1090-4.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">90 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">50 m + 26 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 7 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1070.jpg" alt="LTM 1070-4.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1070-4.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">70 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">50 m + 17 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 8 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1060.png" alt="LTM 1060/2" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1060/2</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">60 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">42 m + 18 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 9 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1055.jpg" alt="LTM 1055-3.2" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1055-3.2</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">55 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">40 m + 16 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 10 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1050.jpg" alt="LTM 1050-3.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1050-3.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">50 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">38 m + 16 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 11 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1040.jpg" alt="LTM 1040-2.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1040-2.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">40 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">35 m + 10 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+
+                <!-- Crane Card 12 -->
+                <div class="crane-card">
+                    <img src="images/ltm-1030.jpg" alt="LTM 1030-2.1" class="crane-card-image">
+                    <div class="crane-card-content">
+                        <h3 class="crane-card-title">LTM 1030-2.1</h3>
+                        <div class="crane-card-specs">
+                            <div class="spec-item">
+                                <div class="spec-label">Udźwig</div>
+                                <div class="spec-value">35 t</div>
+                            </div>
+                            <div class="spec-item">
+                                <div class="spec-label">Wysięg</div>
+                                <div class="spec-value">30 m + 15 m</div>
+                            </div>
+                        </div>
+                        <a href="#" class="crane-card-link">Więcej informacji →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">O nas</div>
+                <h2>Usługi dźwigowe – <span class="text-gradient">wynajem</span></h2>
+                <h3 style="font-size: 1.8rem; margin-top: 1rem; color: #b0b0b0; font-weight: 400; text-transform: none;">
+                    Kompetencje, doświadczenie i szeroka oferta
+                </h3>
+            </div>
+            <div class="about-content" style="max-width: 1100px; margin: 0 auto;">
+                <p class="about-text">
+                    <strong>DŹWIGI PL</strong> to firma, która już od początku swego istnienia stawiała na doświadczenie, 
+                    szeroką ofertę oraz nowoczesne rozwiązania stosowane w branży dźwigowej. W początkowych latach rozwoju 
+                    przedsiębiorstwa zdobywaliśmy specjalistyczną wiedzę na temat maszyn budowlanych, aby jak najlepiej 
+                    odpowiedzieć na oczekiwania Klientów. Systematycznie, coraz lepiej orientując się w branży, poszerzaliśmy 
+                    park maszyn o kolejne rozwiązania na <strong>wynajem</strong>, obejmujące <strong>dźwigi</strong> oraz 
+                    inne maszyny budowlane.
+                </p>
+                <p class="about-text">
+                    Dziś od tego momentu dzieli nas wiele lat, a jednocześnie całe mnóstwo zrealizowanych usług na terenie 
+                    <strong>Oleśnicy</strong> i nie tylko. <strong>Wynajem dźwigów</strong>, podnośników i 
+                    <strong>żurawi samojezdnych</strong> realizujemy na terenie Wrocławia i województwa dolnośląskiego, 
+                    ale także całego kraju. Wiemy, jak istotny jest dostęp do nowoczesnych maszyn budowlanych. Nie każda 
+                    firma może pozwolić sobie na zakup tak wymagającego sprzętu.
+                </p>
+                <p class="about-text">
+                    Na szczęście jesteśmy my: proponujemy nie tylko możliwość wynajmu maszyn przygotowanych do pracy 
+                    w najbardziej wymagających warunkach, jak również <strong>usługi dźwigowe</strong>. Z naszą pomocą 
+                    bez problemu wyburzysz budynek na działce, przetransportujesz ciężkie materiały lub przeprowadzisz 
+                    remont ulicy.
+                </p>
+                <p class="about-text">
+                    <strong>Usługi dźwigowe</strong> świadczymy na terenie całego kraju, a w szczególności w województwie 
+                    dolnośląskim – nasze urządzenia są regularnie wynajmowane przez Klientów z Wrocławia, Legnicy, Wałbrzycha, 
+                    Strzelina, Strzegomia, Brzegu Dolnego, Jawora, Trzebnicy, Oławy, <strong>Oleśnicy</strong> czy Środy Śląskiej.
+                </p>
+                <p class="about-text">
+                    Zaufanie wśród firm budowlanych oraz osób prywatnych zawdzięczamy nie tylko doświadczeniu i kompetencji 
+                    naszych pracowników, ale także szerokiej ofercie. Proponujemy bowiem wynajem <strong>żurawi samojezdnych</strong> 
+                    i innych maszyn o udźwigu do stu ton i wysięgu do stu metrów w górę.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <p>📞 <a href="tel:600057140">600 057 140</a></p>
+                    <p>📞 <a href="tel:728600690">728 600 690</a></p>
+                    <p>📧 <a href="mailto:biuro@dzwigipl.pl">biuro@dzwigipl.pl</a></p>
+                    <p style="margin-top: 1rem;">🌍 English and German Support:</p>
+                    <p>Kamil Biok - <a href="tel:667431984">667 431 984</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Adresy</h3>
+                    <p><strong>Siedziba główna:</strong></p>
+                    <p>ul. Granitowa 7</p>
+                    <p>55-311 Kostomłoty</p>
+                    <p style="margin-top: 1rem;"><strong>Biuro Wrocław:</strong></p>
+                    <p>ul. Osiniecka 9</p>
+                    <p>54-530 Wrocław</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Firma</h3>
+                    <p><strong>DŹWIGI PL Sp. z o.o.</strong></p>
+                    <p>NIP: 9131626331</p>
+                    <p>KRS: 0000735980</p>
+                    <p style="margin-top: 1rem;">Biuro: <a href="tel:602439433">602 439 433</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Obszar działania</h3>
+                    <p><strong>Województwa:</strong></p>
+                    <p><a href="#" style="color: #FFC107;">Dolnośląskie</a> • <a href="#" style="color: #FFC107;">Śląskie</a> • <a href="#" style="color: #FFC107;">Opolskie</a></p>
+                    <p style="margin-top: 1rem;"><strong>Główne miasta:</strong></p>
+                    <p>Wrocław • Legnica • Opole<br>Katowice • Gliwice • Oława<br>Oleśnica • Trzebnica</p>
+                    <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #FFC107;">oraz całą Polskę</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 DŹWIGI PL Sp. z o.o. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

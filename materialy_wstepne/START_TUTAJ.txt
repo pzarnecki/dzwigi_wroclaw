@@ -1,0 +1,115 @@
+╔══════════════════════════════════════════════════════════════╗
+║  DŹWIGI PL - NOWOCZESNY DESIGN (Wersja 3.0)                 ║
+║  Industrial/Safety - PEŁNA TREŚĆ + STOPKA                   ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎯 CO ZOSTAŁO ZROBIONE (v3.0):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Design System:
+   - Industrial/Safety design (ciemne tło + żółto-pomarańczowe akcenty)
+   - Typography: Bebas Neue (display) + Inter (body)
+   - Animacje i hover effects
+   - Responsive layout (desktop, tablet, mobile)
+
+✅ Komponenty:
+   - Header z nawigacją i CTA (telefony)
+   - Hero section z gradientami
+   - Stats bar (200t, 12 dźwigów, 100m, 24/7)
+   - Sekcja dźwigów - WSZYSTKIE 12 MODELI + prawdziwe zdjęcia
+   - Sekcja "O firmie" - PEŁNA TREŚĆ ✨
+   - Footer - ROZBUDOWANY z pełnymi danymi ✨
+
+✅ NOWOŚĆ v3.0 - PEŁNA TREŚĆ:
+   ✓ Rozbudowana sekcja "Usługi dźwigowe - wynajem"
+   ✓ Pełny opis firmy (5 akapitów)
+   ✓ Wszystkie miasta i obszary działania
+   ✓ Rozbudowany footer z:
+     • Pełne dane kontaktowe (PL + EN/DE support)
+     • 2 adresy (Kostomłoty + Wrocław)
+     • Dane rejestrowe (NIP, KRS)
+     • Lista województw i miast
+   ✓ Elegancka linia gradientu nad sekcjami
+
+✅ 12 DŹWIGÓW LIEBHERR:
+   ✓ LTM 1200-5.1 (200t, 72m+16m)
+   ✓ LTM 1160-5.1 (160t, 62m+22m)
+   ✓ LTM 1130-5.1 (130t, 60m+19m)
+   ✓ LTM 1100-4.1 (100t, 52m+19m)
+   ✓ LTM 1095-5.1 (95t, 58m+26m)
+   ✓ LTM 1090-4.1 (90t, 50m+26m)
+   ✓ LTM 1070-4.1 (70t, 50m+17m)
+   ✓ LTM 1060/2 (60t, 42m+18m)
+   ✓ LTM 1055-3.2 (55t, 40m+16m)
+   ✓ LTM 1050-3.1 (50t, 38m+16m)
+   ✓ LTM 1040-2.1 (40t, 35m+10m)
+   ✓ LTM 1030-2.1 (35t, 30m+15m)
+
+
+📦 PLIKI DO POBRANIA:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. dzwigi-design-preview-v3.html  ⭐⭐⭐ NAJNOWSZY!
+   └─> OTWÓRZ TO PIERWSZY! 
+       Standalone HTML z PEŁNĄ TREŚCIĄ
+       (nie wymaga instalacji, po prostu otwórz w przeglądarce)
+
+2. dzwigi-react-v3-content.tar.gz  ⭐⭐⭐ NAJNOWSZY!
+   └─> Pełny projekt React z treścią + zdjęcia
+       (rozpakuj, npm install, npm run dev)
+
+
+🚀 JAK URUCHOMIĆ:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPCJA A - SZYBKI PODGLĄD (bez instalacji):
+1. Otwórz plik: dzwigi-design-preview-v3.html
+2. Gotowe! Zobacz kompletną stronę
+
+OPCJA B - PEŁNY PROJEKT REACT:
+1. Rozpakuj: tar -xzf dzwigi-react-v3-content.tar.gz
+2. Wejdź do folderu: cd dzwigi-react
+3. Zainstaluj: npm install
+4. Uruchom: npm run dev
+5. Otwórz: http://localhost:3000
+
+
+🎨 KOLORY DO PERSONALIZACJI:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Primary Background:  #0a0a0a (czarny)
+Secondary Background: #1a1a1a (ciemny szary)
+Safety Yellow:       #FFC107 (żółty ostrzegawczy)
+Safety Orange:       #FF6F00 (pomarańczowy ostrzegawczy)
+
+(wszystkie kolory w pliku src/styles/App.css w :root)
+
+
+📝 NASTĘPNE KROKI:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Co możemy dodać w kolejnych iteracjach:
+
+[ ] System CMS (JSON-based, bez backendu)
+[ ] Optymalizacja SEO (meta tags, schema.org)
+[ ] Podstrony dla lokalizacji (Wrocław, Legnica, etc.)
+[ ] Lazy loading obrazów + WebP
+[ ] Contact form (formularz kontaktowy)
+[ ] Google Maps integration
+[ ] Mobile menu (hamburger)
+[ ] Galeria projektów (zdjęcia "dźwigi w akcji")
+[ ] Kalkulator wyceny
+[ ] Linki do PDF-ów z dokumentacją dźwigów
+
+
+💬 FEEDBACK:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Sprawdź design preview (dzwigi-design-preview-v3.html)
+2. Zobacz pełną treść - sekcja "O firmie" i rozbudowany footer
+3. Powiedz co Ci się podoba, a co zmienić
+4. Wtedy dodamy kolejne elementy krok po kroku!
+
+
+Przemek, otwórz dzwigi-design-preview-v3.html
+i zobacz kompletną stronę! 🚀

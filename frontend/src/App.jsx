@@ -8,7 +8,7 @@ const cranes = [
     name: "LTM 1200-5.1",
     capacity: "200 t",
     reach: "72 m + 16 m",
-    image: "/images/ltm-1200.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1200.jpg",
     pdf: "LTM_1200-5.1_Volledigebrochure.pdf",
     featured: true
   },
@@ -17,7 +17,7 @@ const cranes = [
     name: "LTM 1160-5.1",
     capacity: "160 t",
     reach: "62 m + 22 m",
-    image: "/images/ltm-1160.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1160.jpg",
     pdf: "LiebherrLTM1160-5.1.pdf",
     featured: true
   },
@@ -26,7 +26,7 @@ const cranes = [
     name: "LTM 1130-5.1",
     capacity: "130 t",
     reach: "60 m + 19 m",
-    image: "/images/ltm-1130.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1130.jpg",
     pdf: "LTM_1130-5.1.pdf",
     featured: true
   },
@@ -35,7 +35,7 @@ const cranes = [
     name: "LTM 1100-4.1",
     capacity: "100 t",
     reach: "52 m + 19 m",
-    image: "/images/ltm-1100.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1100.jpg",
     pdf: "LTM 1100-4.1.pdf",
     featured: false
   },
@@ -44,7 +44,7 @@ const cranes = [
     name: "LTM 1095-5.1",
     capacity: "95 t",
     reach: "58 m + 26 m",
-    image: "/images/ltm-1095.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1095.jpg",
     pdf: "LTM 1095-5.1.pdf",
     featured: false
   },
@@ -53,7 +53,7 @@ const cranes = [
     name: "LTM 1090-4.1",
     capacity: "90 t",
     reach: "50 m + 26 m",
-    image: "/images/ltm-1090.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1090.jpg",
     pdf: "LTM 1090-4.1.pdf",
     featured: false
   },
@@ -62,7 +62,7 @@ const cranes = [
     name: "LTM 1070-4.1",
     capacity: "70 t",
     reach: "50 m + 17 m",
-    image: "/images/ltm-1070.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1070.jpg",
     pdf: "LTM 1070-4.1.pdf",
     featured: false
   },
@@ -71,7 +71,7 @@ const cranes = [
     name: "LTM 1060/2",
     capacity: "60 t",
     reach: "42 m + 18 m",
-    image: "/images/ltm-1060.png",
+    image: import.meta.env.BASE_URL + "images/ltm-1060.png",
     pdf: "LTM-1060-2.pdf",
     featured: false
   },
@@ -80,7 +80,7 @@ const cranes = [
     name: "LTM 1055-3.2",
     capacity: "55 t",
     reach: "40 m + 16 m",
-    image: "/images/ltm-1055.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1055.jpg",
     pdf: "LTM 1055-3.2.pdf",
     featured: false
   },
@@ -89,7 +89,7 @@ const cranes = [
     name: "LTM 1050-3.1",
     capacity: "50 t",
     reach: "38 m + 16 m",
-    image: "/images/ltm-1050.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1050.jpg",
     pdf: "LTM 1050-3.1.pdf",
     featured: false
   },
@@ -98,7 +98,7 @@ const cranes = [
     name: "LTM 1040-2.1",
     capacity: "40 t",
     reach: "35 m + 10 m",
-    image: "/images/ltm-1040.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1040.jpg",
     pdf: "LTM 1040-2.1.pdf",
     featured: false
   },
@@ -107,7 +107,7 @@ const cranes = [
     name: "LTM 1030-2.1",
     capacity: "35 t",
     reach: "30 m + 15 m",
-    image: "/images/ltm-1030.jpg",
+    image: import.meta.env.BASE_URL + "images/ltm-1030.jpg",
     pdf: "LTM 1030-2.1.pdf",
     featured: false
   }

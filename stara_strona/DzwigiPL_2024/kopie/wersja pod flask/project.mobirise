@@ -1,0 +1,899 @@
+{
+  "settings": {
+    "name": "dzwigi-clone",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.9.1",
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "uniqCompNum": 24,
+    "versionPublish": "5.9.18",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": false,
+    "siteUrl": false,
+    "sitemapSwitcherAuto": "on",
+    "favicon": false,
+    "noImageResize": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-52624319-17\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-52624319-17');\r\n</script>",
+    "cookiesAlert": false,
+    "gdpr": false,
+    "сanonical-url": "",
+    "canonical-url": "",
+    "imageResize": true,
+    "mbrsiteDomain": "jjrpnyt59n",
+    "sitemapSwitcher": false,
+    "publishEditFolder": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Usługi dźwigowe Wrocław i okolice",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px",
+              "padding": ".5rem 0"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu2",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pokaż logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Wielkość logo\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Pokaż markę\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Pokaż elementy menu\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Kolor aktywnego menu\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Pokaż przycisk(i)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"&quot;Przyklejony&quot;\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Zwinięty\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Przezroczyste\" name=\"transparent\">\n        <input type=\"color\" title=\"Kolor menu prostego\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://dzwigipl.pl\">\n                        <img src=\"@PROJECT_PATH@/assets/images/dzwigilogo-824x218.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Start</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#services1-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Oferta</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#slider01-k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Galeria</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"index.html#content4-n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">O firmie</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#footer2-7\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Kontakt</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:600057140\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-mobile mbr-iconfont mbr-iconfont-btn\"></span>\n                    600 057 140</a> <a class=\"btn btn-sm btn-primary\" href=\"tel:728 600 690\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-mobile mbr-iconfont mbr-iconfont-btn\"></span>\n                    728 600 690</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "rhZfHjnO1e",
+          "_anchor": "menu2-c",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pełny ekran\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Pokaż strzałki\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Pokaż przyciski\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"@PROJECT_PATH@/assets/images/liebherr-ltm11200-o-mais-poderoso-guindaste-movel-do-mundo-1559x1170.jpg\" parallax selected>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Film\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><a href=\"tel:600 057 140\" class=\"text-white\">600 057 140</a><br><a href=\"tel:728 600 690\" class=\"text-white text-primary\">728 600 690</a></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Zapraszamy 24h/7 dni w tygodniu. <br>Kliknij w numer i zadzwoń.</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Oferujemy Państwu profesjonalne usługi dźwigowe, w tym wynajem dźwigów i żurawi samojezdnych na terenie województwa dolnośląskiego - Wrocław, Legnica, Oława, Oleśnica, Środa Sląska i wiele innych\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"index.html#services1-e\" data-app-placeholder=\"Type Text\">OFERTA</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"index.html#footer2-7\" data-app-placeholder=\"Type Text\">KONTAKT</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "rhSv3R1eyY",
+          "_anchor": "header2-6",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".card-box": {
+                "padding": "1rem 2rem 2rem"
+              }
+            },
+            "& when (@bg-type = 'video')": {
+              ".card-box": {
+                "padding": "1rem 2rem 2rem"
+              }
+            },
+            "h4": {
+              "font-weight": "500",
+              "margin-bottom": "0",
+              "text-align": "left",
+              "padding-top": "2rem"
+            },
+            "p": {
+              "margin-bottom": "0",
+              "text-align": "left",
+              "padding-top": "1.5rem",
+              "& when not (@showTitle)": {
+                "padding-top": "2rem"
+              }
+            },
+            ".mbr-section-btn": {
+              "padding-top": "2.5rem",
+              "a": {
+                "margin": "0"
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".card-wrapper": {
+              "height": "100%",
+              "background": "@cardsBg"
+            },
+            "@media (max-width: 767px)": {
+              ".card:not(.last-child)": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "H2": {
+              "text-align": "center"
+            }
+          },
+          "_name": "services1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"services1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <!---->\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubtitle\">\n        <!---->\n        <input type=\"checkbox\" title=\"Pokaż nazwy wizytówek 111111111111111111\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Card Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Card Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Tło wizytówek\" name=\"cardsBg\" value=\"#ffffff\">\n        <select title=\"Wizytówki\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <select title=\"Align Buttons:\" name=\"alignBtn\" condition=\"showButtons\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Kolor ta\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Film\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <!--Titles-->\n            <div class=\"title pb-5 col-12\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    NASZE DŹWIGI</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Subtitle\n                </h3>\n            </div>\n            <!--Card-1-->\n            <div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3', 'last-child': cardsAmount == '1'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/f6bd8bf8e68830ac33091884ad93a8e62cfedbdc-700x466.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-class=\"{'pb-md-5': cardsAmount > '2'}\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            LTM 1200-5.1</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">UDŹWIG 200 t \n<br>WYSIĘG 72 m + 16 m</p>\n                        <!--Btn-->\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"assets/files/LTM_1200-5.1_Volledigebrochure.pdf\" class=\"btn btn-warning-outline\" data-app-placeholder=\"Type Text\">\n                                WIĘCEJ</a></div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-2-->\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3', 'last-child': cardsAmount == '2'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/72062fa16e82dd872e88b9d340e47efaadee88b5-700x467.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-class=\"{'pb-md-5': cardsAmount > '2'}\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            LTM 1160-5.1</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">UDŹWIG 160 t \n<br>WYSIĘG 62 m + 22 m</p>\n                        <!--Btn-->\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"assets/files/LiebherrLTM1160-5.1.pdf\" class=\"btn btn-warning-outline\" data-app-placeholder=\"Type Text\">\n                                WIĘCEJ</a></div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-3-->\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3', 'last-child': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/a965795d818dd3ede77aa299247ac117cc81f65f-700x453.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">LTM 11130-5.1</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">UDŹWIG 130 t \n<br>WYSIĘG 60 m + 19 m&nbsp;</p>\n                        <!--Btn-->\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\"><a href=\"assets/files/LTM_1130-5.1.pdf\" class=\"btn btn-warning-outline\" data-app-placeholder=\"Type Text\">\n                                WIĘCEJ</a></div>\n                    </div>\n                </div>\n            </div>\n            <!--Card-4-->\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3', 'last-child': cardsAmount == '4'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/product1.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            Watch Strict\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium dolores doloribus\n                            eligendi eum illo placeat quis repellendus sequi tempore!\n                        </p>\n                        <!--Btn-->\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-class=\"{'align-left' : alignBtn == 1, 'align-center' : alignBtn == 2, 'align-right' : alignBtn == 3}\">\n                            <a href=\"https://mobirise.co\" class=\"btn btn-warning-outline\">\n                                $ 790\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "services1-e",
+          "_isUserblock": true,
+          "_cid": "tupuwsn8WC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "slider01",
+          "_sourceTheme": "complexm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1 mbr-embla\" group=\"Sliders &amp; Galleries\" plugins=\"embla\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked=\"\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked=\"\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\">\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked=\"\">\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked=\"\">\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked=\"\">\n        <header>Cards</header>\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required=\"\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/complexm5/components/_images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    <div class=\"position-relative text-center\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Nasze dźwigi w akcji</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-left mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">To add more cards, hover on a card and\n                click 'Add items'</h5>\n        </div>\n        <div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n            <div class=\"embla__viewport\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n                <div class=\"embla__container\">\n                    <div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-15-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-14-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-13-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"2\" data-bs-slide-to=\"2\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-12-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-11-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"4\" data-bs-slide-to=\"4\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-10-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"5\" data-bs-slide-to=\"5\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-9-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"6\" data-bs-slide-to=\"6\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-8-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"7\" data-bs-slide-to=\"7\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-7-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"8\" data-bs-slide-to=\"8\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-6-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"9\" data-bs-slide-to=\"9\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-5-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"10\" data-bs-slide-to=\"10\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-4-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"11\" data-bs-slide-to=\"11\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-3-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"12\" data-bs-slide-to=\"12\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-38-2-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"13\" data-bs-slide-to=\"13\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-16-40-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"14\" data-bs-slide-to=\"14\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-15-43-815x1087.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"15\" data-bs-slide-to=\"15\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-15-18-815x1449.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"16\" data-bs-slide-to=\"16\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-11-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"17\" data-bs-slide-to=\"17\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-10-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"18\" data-bs-slide-to=\"18\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-9-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"19\" data-bs-slide-to=\"19\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-8-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"20\" data-bs-slide-to=\"20\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-7-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"21\" data-bs-slide-to=\"21\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-6-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"22\" data-bs-slide-to=\"22\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-5-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"23\" data-bs-slide-to=\"23\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-4-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"24\" data-bs-slide-to=\"24\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-3-815x458.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"25\" data-bs-slide-to=\"25\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-46-2-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"26\" data-bs-slide-to=\"26\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-10-48-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"27\" data-bs-slide-to=\"27\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-16-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"28\" data-bs-slide-to=\"28\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-15-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"29\" data-bs-slide-to=\"29\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-14-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"30\" data-bs-slide-to=\"30\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-13-815x458.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"31\" data-bs-slide-to=\"31\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-12-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"32\" data-bs-slide-to=\"32\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-11-576x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"33\" data-bs-slide-to=\"33\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-9-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"34\" data-bs-slide-to=\"34\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-8-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"35\" data-bs-slide-to=\"35\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-7-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"36\" data-bs-slide-to=\"36\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-6-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"37\" data-bs-slide-to=\"37\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-5-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"38\" data-bs-slide-to=\"38\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-4-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"39\" data-bs-slide-to=\"39\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-3-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"40\" data-bs-slide-to=\"40\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-2-768x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"41\" data-bs-slide-to=\"41\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-37-815x367.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"42\" data-bs-slide-to=\"42\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-36-4-461x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"43\" data-bs-slide-to=\"43\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-36-3-461x1024.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"44\" data-bs-slide-to=\"44\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-06-36-815x367.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"45\" data-bs-slide-to=\"45\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-03-30-815x458.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"46\" data-bs-slide-to=\"46\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-02-46-815x367.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"47\" data-bs-slide-to=\"47\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/bc233eec-a7d9-4161-bf06-bb434598b54a-815x1087.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"48\" data-bs-slide-to=\"48\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/09441aab-7faf-44b4-8bde-4970ee678bb1-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"49\" data-bs-slide-to=\"49\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/817f3327-7750-4920-9960-51638013587b-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"50\" data-bs-slide-to=\"50\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/f555d81c-f185-4f21-a283-0c87ecc1f2c3-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"51\" data-bs-slide-to=\"51\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/13b73f78-3c9b-4f03-b782-c9c5b3e5bfea-815x1087.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"52\" data-bs-slide-to=\"52\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/82dc8d92-c9e5-4202-a29c-6c89909ea544-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"53\" data-bs-slide-to=\"53\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/bf0408d8-e1fb-4074-8e05-2d22483989bb-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"54\" data-bs-slide-to=\"54\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/ca2f2a45-aa85-42e0-bfb0-42730e3f15c3-815x1087.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"55\" data-bs-slide-to=\"55\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/597b9774-67de-4b41-9ff0-6faf563a3a68-815x1087.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"56\" data-bs-slide-to=\"56\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/de4775cb-04a3-4e7d-8f9a-b4355c72f236-815x611.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"57\" data-bs-slide-to=\"57\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/02df275b-0dc0-4457-8cfc-79d765ec9d66-815x1087.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"58\" data-bs-slide-to=\"58\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-02-6-721x1600.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"59\" data-bs-slide-to=\"59\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/photo-2023-01-26-19-01-9-720x1600.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"60\" data-bs-slide-to=\"60\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image4-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"61\" data-bs-slide-to=\"61\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image13-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"62\" data-bs-slide-to=\"62\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image12-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"63\" data-bs-slide-to=\"63\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image21-720x1280.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"64\" data-bs-slide-to=\"64\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image18-720x1280.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"65\" data-bs-slide-to=\"65\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image24-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"66\" data-bs-slide-to=\"66\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image9-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"67\" data-bs-slide-to=\"67\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image5-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"68\" data-bs-slide-to=\"68\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image22-720x405.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"69\" data-bs-slide-to=\"69\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image15-720x1280.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"70\" data-bs-slide-to=\"70\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image10-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"71\" data-bs-slide-to=\"71\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image4-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"72\" data-bs-slide-to=\"72\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image1-720x540.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"73\" data-bs-slide-to=\"73\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image14-720x1280.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"74\" data-bs-slide-to=\"74\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image8-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"75\" data-bs-slide-to=\"75\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image19-720x1280.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"76\" data-bs-slide-to=\"76\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image0-720x540.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"77\" data-bs-slide-to=\"77\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image20-720x1280.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"78\" data-bs-slide-to=\"78\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image7-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"79\" data-bs-slide-to=\"79\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image11-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"80\" data-bs-slide-to=\"80\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image6-720x540.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"81\" data-bs-slide-to=\"81\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image2-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"82\" data-bs-slide-to=\"82\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image16-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"83\" data-bs-slide-to=\"83\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/7b353500-1283-49a2-9b3b-cee200e09040-720x324.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"84\" data-bs-slide-to=\"84\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/b35daf1e-6d70-4d66-a294-122f6fa17f43-720x324.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"85\" data-bs-slide-to=\"85\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/f005360e-1d0c-427a-a8b6-dda6fb3ee608-720x324.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"86\" data-bs-slide-to=\"86\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/bc8a8908-13db-44aa-8998-84c333fa7579-720x324.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"87\" data-bs-slide-to=\"87\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/002c086c-7279-4a1f-b62d-f0de70eb62c6-720x1598.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"88\" data-bs-slide-to=\"88\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/4b2d8dd4-3740-46a6-8459-d49d3c12e594-720x324.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"89\" data-bs-slide-to=\"89\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/0ecc03c0-e58b-4841-8b73-a3d49495e999-720x1600.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"90\" data-bs-slide-to=\"90\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/1c80ac23-6d17-4fd9-a9cd-409ee446edb7-720x324.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"91\" data-bs-slide-to=\"91\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/b071574e-09f9-4b54-a16d-0c6f58569d82-720x1598.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"92\" data-bs-slide-to=\"92\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/9c2b960a-8dc2-4e8f-9d86-33832482f60f-720x1598.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"93\" data-bs-slide-to=\"93\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/5e886627-48a1-46d3-8eab-66157800bbe7-720x1598.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"94\" data-bs-slide-to=\"94\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/1a003803-eb15-4caa-ae60-9bb2d661fb02-720x1600.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"95\" data-bs-slide-to=\"95\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/3342ecbe-cb23-4e1d-97d9-aa78377aa028-720x405.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"96\" data-bs-slide-to=\"96\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/7196dad5-6f81-43e8-bd04-04f2e64776a1-720x405.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"97\" data-bs-slide-to=\"97\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/c4fb7bde-c5d3-4067-9aac-0e61a543effc-720x1598.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"98\" data-bs-slide-to=\"98\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/edf994e3-d5e9-430f-b7f6-0c58bdb7041a-720x1598.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"99\" data-bs-slide-to=\"99\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/14b56ced-c858-4438-96ed-5abd7e791f1e-720x1600.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"100\" data-bs-slide-to=\"100\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/e1840c22-fec9-422c-a268-f3ff789288fa-720x405.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"101\" data-bs-slide-to=\"101\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image23-720x1280.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"102\" data-bs-slide-to=\"102\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    <img src=\"@PROJECT_PATH@/assets/images/image3-720x960.jpg\" alt=\"Mobirise Website Builder\" data-slide-to=\"103\" data-bs-slide-to=\"103\">\n                                </div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-7\"></h2>\n                                    <span mbr-icon=\"\" class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\"></span>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    \n                    \n                    \n\n\n                </div>\n            </div>\n            <button class=\"embla__button embla__button--prev\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Previous</span>\n            </button>\n            <button class=\"embla__button embla__button--next\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Next</span>\n            </button>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "img": {
+              "transition": "all 0.3s",
+              "height": "350px",
+              "width": "100%",
+              "object-fit": "cover"
+            },
+            ".slide-content": {
+              "width": "100%",
+              "&:hover": {
+                "img": {
+                  "transform": "scale(1.15) rotate(-5deg)"
+                }
+              },
+              "position": "relative",
+              "height": "100%",
+              "display": "flex",
+              "overflow": "hidden",
+              "flex-flow": "column nowrap"
+            },
+            ".img-link": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "transition": "all 0.3s",
+              "padding": "1rem 0rem",
+              "color": "#000000",
+              "width": "100%",
+              "span": {
+                "font-size": "2rem",
+                "color": "currentColor"
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item-wrapper": {
+              "position": "relative"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".item-title": {
+              "text-align": "left"
+            },
+            ".item-subtitle": {
+              "text-align": "left"
+            },
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "490px",
+              "max-width": "490px",
+              "@media (max-width: 768px)": {
+                "min-width": "70%",
+                "max-width": "initial",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important"
+              }
+            },
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button--prev": {
+              "span": {
+                "padding-right": "7px"
+              }
+            },
+            ".embla__button--next": {
+              "span": {
+                "padding-left": "3px"
+              }
+            },
+            ".embla__button": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "40px",
+              "color": "black",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "position": "absolute",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "& when not (@arrows)": {
+                "display": "none"
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
+              },
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
+              },
+              "&.embla__button--prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.embla__button--next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 1400px)": {
+                "background-color": "rgba(255, 255, 255, 0.5)",
+                "border-color": "black"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "margin-top": "-0.5rem"
+              }
+            },
+            ".embla": {
+              "position": "relative",
+              "width": "100%"
+            },
+            ".embla__viewport": {
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            ".embla__viewport.is-draggable": {
+              "cursor": "grab"
+            },
+            ".embla__viewport.is-dragging": {
+              "cursor": "grabbing"
+            },
+            ".embla__container": {
+              "display": "flex",
+              "user-select": "none",
+              "-webkit-touch-callout": "none",
+              "-khtml-user-select": "none",
+              "-webkit-tap-highlight-color": "transparent"
+            },
+            ".img-link, .link-icon": {
+              "color": "#000000"
+            }
+          },
+          "_cid": "tupGNICNJs",
+          "_anchor": "slider01-k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Pokaż tytuł\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż podtytuł\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Pokaż przyciski\" name=\"showButtons\">\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><p>\n                    Usługi dźwigowe - wynajem<span style=\"font-size: 3rem;\">&nbsp; &nbsp;&nbsp;</span></p></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Kompetencje, doświadczenie i szeroka oferta</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">DOWIEDZ SIĘ WIĘCEJ</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobiri.se\">DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tushLdspvm",
+          "_anchor": "content4-n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676",
+              "p": {
+                "background": "@crdColor"
+              }
+            }
+          },
+          "_name": "content14",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Kolor\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Wizytówki\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <input type=\"color\" title=\"Kolor ta\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">DŹWIGI PL to firma, która już od początku swego istnienia stawiała na doświadczenie, szeroką ofertę oraz nowoczesne rozwiązania stosowane w branży dźwigowej. W początkowych latach rozwoju przedsiębiorstwa zdobywaliśmy specjalistyczną wiedzę na temat maszyn budowlanych, aby jak najlepiej odpowiedzieć na oczekiwania klientów. Systematycznie, coraz lepiej orientując się w branży, poszerzaliśmy park maszyn o kolejne rozwiązania na wynajem. Dziś od tego momentu dzieli nas wiele lat, a jednocześnie całe mnóstwo zrealizowanych usług</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Wynajem dźwigów, podnośników i żurawi samojezdnych świadczymy dziś już nie tylko na terenie Wrocławia i województwa dolnośląskiego, ale na także terenie całego kraju. Wiemy, jak istotny jest dostęp do nowoczesnych maszyn budowlanych. Nie każda firma może pozwolić sobie na zakup tak wymagającego sprzętu. Na szczęście jesteśmy my: proponujemy nie tylko możliwość wynajmu maszyn przygotowanych do pracy w najbardziej wymagających warunkach, ale także usługi dźwigowe. Z naszą pomocą bez problemu wyburzysz budynek na działce, przetransportujesz ciężkie materiały lub przeprowadzisz remont ulicy.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Usługi dźwigowe świadczymy na terenie całego kraju a w szczególności w województwie dolnośląskim – nasze urządzenia regularnie wynajmowane są przez klientów z Wrocławia, Legnicy, Wałbrzycha, Strzelina, Strzegomia, Brzegu Dolnego, Jawora, Trzebnicy, Oławy, Oleśnicy czy Środy Śląskiej. Zaufanie wśród firm budowlanych i osób prywatnych zawdzięczamy nie tylko doświadczeniu i kompetencji naszych pracowników, ale także szerokiej ofercie. Proponujemy bowiem wynajem żurawi samojezdnych i innych maszyn o udźwigu do stu ton i wysięgu do stu metrów w górę.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tushvBo8uT",
+          "_anchor": "content14-m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".map": {
+              "height": "18.75rem"
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.3rem",
+                  "color": "#fff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              }
+            },
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"map\" title=\"Mapa\" name=\"googleMap\" place-id=\"54-530 Wrocław, Osiniecka 9\" value=\"54-530 Wrocław, Osiniecka 9\">\n        <input type=\"checkbox\" title=\"Pokaż prawa autorskie\" name=\"showCopyright\" checked>\n        <select title=\"Ikony\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Efekt odsłaniania\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Obrazek\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Kolor ta\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Nakładka\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Kolor nakładki\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Przejrzystość\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content mbr-white\">\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\">\n                    <strong>Adres</strong>&nbsp;<br>\n                    <br>54-530 Wrocław <br>Osiniecka 9<br>\n                    <br>\n                    <br><strong>Dane kontaktowe</strong>\n<br>Email: <a href=\"mailto:biuro@dzwigipl.pl\">biuro@dzwigipl.pl</a><br>Biuro - <a href=\"tel:602 439 433\" class=\"text-primary\">602 439 433</a><a href=\"mailto:biuro@dzwigipl.pl\"><br></a><a href=\"mailto:biuro@dzwigipl.pl\"><br></a><b>Zamówienia&nbsp;</b><br><a href=\"tel:600 057 140\">600 057 140</a><br><a href=\"tel:728 600 690\" class=\"text-primary\">728 600 690<br></a><a href=\"tel:600 057 140\"><br></a>                    <br>English and German Support:<br>Kamil Biok -&nbsp;<a href=\"tel:667 431 984\">667 431 984</a><br><a href=\"tel:667 431 984\"><br></a></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <p class=\"mbr-text\"><b>Dane rejestrowe:&nbsp;</b><br>DŹWIGI PL Sp. z o.o.\n<br>55-311 Kostomłoty ul Granitowa 7\n<br>NIP 9131626331  <br>KRS  0000735980&nbsp;<br><br></p>\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">© Copyright 2019-2023&nbsp; - All Rights Reserved. Opracowanie <a href=\"http://www.favor.info.pl\">FAVOR</a>.<br></p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"#top\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social mbri-home\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rhSxtVb8Sz",
+          "_anchor": "footer2-7",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
